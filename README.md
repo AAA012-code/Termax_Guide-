@@ -1,4 +1,6 @@
-ls
-cd fail
-pwd
-جرب قرائتي
+-# hgfs
+# cd
+# ls
+# pwd 
+
+
