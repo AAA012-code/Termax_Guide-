@@ -6,7 +6,7 @@ Firstly Grant the Termux application access to storage to install tools and save
 
 $ termux-setup-storage
 
-# Essential commands for updating the system and tools (preferably executed before starting and periodically) 
+* Essential commands for updating the system and tools (preferably executed before starting and periodically) 
 
 $ pkg update
 
@@ -40,7 +40,6 @@ $ pkg install nano
 $ pkg install x11-repo
 
 $ pkg install php
-
 
 
 
