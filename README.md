@@ -115,6 +115,16 @@ And then this
 pkg update && pkg upgrade -y
 
 ```
+# Update the Termux tools themselves if the update commands are outdated or not working as they should. 
+* Do this 
+```
+pkg install termux-tools
+```
+and this 
+```
+pkg update && pkg upgrade -y
+```
+
 | command | purpose  |
 |---|---|
 | pkg update | تحديث الحزم |
