@@ -21,7 +21,7 @@ apt update
 apt upgrade
 ```
 
- Installing development environments and programming languages in Termux
+* Installing development environments and programming languages in Termux
 ```
 pkg install python
 ```
@@ -41,9 +41,7 @@ pkg install ruby
 pkg install git
 ```
 ```
-```
 pkg install python
-```
 ```
 ```
 pkg install curl
