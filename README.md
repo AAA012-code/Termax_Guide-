@@ -115,7 +115,8 @@ And then this
 pkg update && pkg upgrade -y
 
 ```
-# Update the Termux tools themselves if the update commands are outdated or not working as they should. 
+# Update the Termux tools 
+if the update commands are outdated or not working as they should. 
 * Do this 
 ```
 pkg install termux-tools
