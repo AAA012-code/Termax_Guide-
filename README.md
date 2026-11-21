@@ -1,30 +1,48 @@
-your item number is not have the same day for this site constitutes a lot to get the question about us for you have the question of duty and other hand in your browser and to a few minutes and to be able to andr 
+These are some of the essential, focused commands you'll need in Termux. Before you begin anything, install these tools first. 
 
 
 # Termux update
+Firstly Grant the Termux application access to storage to install tools and save files.
 
-rustscan -h
+$ termux-setup-storage
 
-python2 hacktronian.py
+# Essential commands for updating the system and tools (preferably executed before starting and periodically) 
 
-python2 hacktronian.py
+$ pkg update
 
-php owscan.php
+$ pkg upgrade
 
-# cd
-rustscan -h
+$ apt update
 
-./EternalView.sh TARGET 
+$ apt upgrade
 
-# ls
-dalfox -h
+# Installing development environments and programming languages in Termux
 
-dalfox -h
+$ pkg install python
 
-#To download the package directly from 
-Termux, copy this command. 
+$ pkg install python2
 
-gh repo clone AAA012-code/-
+$ pkg install python3
+
+$ pkg install git
+
+$ pkg install ruby
+
+
+# Install some utilities in Termux
+
+$ pkg install pip
+
+$ pkg install unzip
+
+$ pkg install nano
+
+$ pkg install x11-repo
+
+$ pkg install php
+
+
+
 
 
 
