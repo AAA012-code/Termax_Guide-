@@ -95,12 +95,12 @@ And then this
 pkg update && pkg upgrade -y
 
 ```
-| الرقم | الأمر | الوظيفة |
-|---|---|---|
-| 1 | pkg update | تحديث الحزم |
-| 2 | pkg upgrade | ترقية الحزم |
-| 3 | pkg install git | تثبيت Git |
-| 4 | pkg install python | تثبيت Python |
+| command | guest  |
+|---|---|
+| pkg update | تحديث الحزم |
+| pkg upgrade | ترقية الحزم |
+| pkg install git | تثبيت Git |
+| pkg install python | تثبيت Python |
 
 
 
