@@ -3,21 +3,25 @@ These are some of the essential, focused commands you'll need in Termux. Before 
 
 # Termux update
 * Firstly Grant the Termux application access to storage to install tools and save files.
-
-$ termux-setup-storage
-
+```
+termux-setup-storage
+```
 * Essential commands for updating the system and tools (preferably executed before starting and periodically) 
 
-$ pkg update
+```
+pkg update
+```
+```
+pkg upgrade
+```
+```
+ apt update
+```
+```
+ apt upgrade
+```
 
-$ pkg upgrade
-
-$ apt update
-
-$ apt upgrade
-
-
-# Installing development environments and programming languages in Termux
+ Installing development environments and programming languages in Termux
 
 $ pkg install python
 
@@ -57,8 +61,11 @@ $ pkg install make
 
   $ pkg install git python curl wget nano vim unzip zip tar openssh clang make -y
 
+  
+
 # Install some utilities in Termux
 
+```
 $ pkg install pip
 
 $ pkg install unzip
@@ -68,7 +75,23 @@ $ pkg install nano
 $ pkg install x11-repo
 
 $ pkg install php
+```
+# Fix incomplete packages 
 
+If you receive a message about uninitialized packages or missing dependencies, try this 
+
+$ dpkg --configure -a
+
+Then this 
+
+$ apt --fix-broken install
+
+And then this 
+
+$ pkg update && pkg upgrade -y
+
+```bash
+pkg update && pkg upgrade -y
 
 
 
