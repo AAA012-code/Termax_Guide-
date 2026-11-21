@@ -15,10 +15,10 @@ pkg update
 pkg upgrade
 ```
 ```
- apt update
+apt update
 ```
 ```
- apt upgrade
+apt upgrade
 ```
 
  Installing development environments and programming languages in Termux
@@ -66,34 +66,41 @@ $ pkg install make
 # Install some utilities in Termux
 
 ```
-$ pkg install pip
-
-$ pkg install unzip
-
-$ pkg install nano
-
-$ pkg install x11-repo
-
-$ pkg install php
+pkg install pip
+```
+```
+pkg install unzip
+```
+```
+pkg install nano
+```
+```
+pkg install x11-repo
+```
+```
+pkg install php
 ```
 # Fix incomplete packages 
 
 If you receive a message about uninitialized packages or missing dependencies, try this 
-
-$ dpkg --configure -a
-
+```
+dpkg --configure -a
+```
 Then this 
-
-$ apt --fix-broken install
-
+```
+apt --fix-broken install
+```
 And then this 
-
-$ pkg update && pkg upgrade -y
-
-```bash
+```
 pkg update && pkg upgrade -y
 
-
+```
+| الرقم | الأمر | الوظيفة |
+|---|---|---|
+| 1 | pkg update | تحديث الحزم |
+| 2 | pkg upgrade | ترقية الحزم |
+| 3 | pkg install git | تثبيت Git |
+| 4 | pkg install python | تثبيت Python |
 
 
 
