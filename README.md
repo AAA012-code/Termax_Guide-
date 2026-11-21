@@ -21,7 +21,7 @@ apt update
 apt upgrade
 ```
 
-* Installing development environments and programming languages in Termux
+## Installing development environments and programming languages in Termux
 ```
 pkg install python
 ```
@@ -74,10 +74,14 @@ pkg install clang
 pkg install make
 ```
 * Or install them all with one command
+```
+pkg install git python curl wget nano vim unzip zip tar openssh clang make -y
+```
+This is the comprehensive update. 
+```
+pkg update && pkg upgrade -y
 
-  $ pkg install git python curl wget nano vim unzip zip tar openssh clang make -y
-
-  
+```
 
 # Install some utilities in Termux
 
