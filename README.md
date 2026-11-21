@@ -2,7 +2,7 @@ These are some of the essential, focused commands you'll need in Termux. Before 
 
 
 # Termux update
-Firstly Grant the Termux application access to storage to install tools and save files.
+* Firstly Grant the Termux application access to storage to install tools and save files.
 
 $ termux-setup-storage
 
