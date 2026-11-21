@@ -126,12 +126,14 @@ and this
 pkg update && pkg upgrade -y
 ```
 
+# Understanding system and warehouse information 
+
 | command | purpose  |
 |---|---|
-| pkg update | تحديث الحزم |
-| pkg upgrade | ترقية الحزم |
-| pkg install git | تثبيت Git |
-| pkg install python | تثبيت Python |
+|  termux-info | Displays Termax release and repository information  |
+| df -h | Displays available space  |
+|  apt list --upgradable | Displays the packages that have been installed  |
+
 
 
 
