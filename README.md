@@ -41,16 +41,10 @@ pkg install ruby
 pkg install git
 ```
 ```
-pkg install python
-```
-```
 pkg install curl
 ```
 ```
 pkg install wget
-```
-```
-pkg install nano
 ```
 ```
 pkg install vim
@@ -96,9 +90,6 @@ pkg install nano
 ```
 ```
 pkg install x11-repo
-```
-```
-pkg install php
 ```
 # Fix incomplete packages 
 
