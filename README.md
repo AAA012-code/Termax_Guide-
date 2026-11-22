@@ -1,3 +1,8 @@
+<img width="1920" height="1080" alt="image" src="https://github.com/user-attachments/assets/74ee34f2-886c-4eac-847c-5f7804e41208" />
+
+
+
+
 These are some of the essential, focused commands you'll need in Termux. Before you begin anything, install these tools first. 
 
 
